@@ -12960,6 +12960,7 @@
 	(symbol
 		(lib_id "AKE_Device:Jumper_Pinheader")
 		(at 38.1 228.6 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12984,7 +12985,7 @@
 			)
 		)
 		(property "Footprint" "AKE_Pinheader_TH:PinHeader_1x02_P2.54mm_Vertical"
-			(at 43.18 233.68 0)
+			(at 33.02 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15664,6 +15665,7 @@
 	(symbol
 		(lib_id "AKE_Device:Jumper_Pinheader")
 		(at 39.37 165.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15688,7 +15690,7 @@
 			)
 		)
 		(property "Footprint" "AKE_Pinheader_TH:PinHeader_1x02_P2.54mm_Vertical"
-			(at 44.45 170.18 0)
+			(at 34.29 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20977,6 +20979,7 @@
 	(symbol
 		(lib_id "AKE_Device:Jumper_Pinheader")
 		(at 39.37 101.6 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21001,7 +21004,7 @@
 			)
 		)
 		(property "Footprint" "AKE_Pinheader_TH:PinHeader_1x02_P2.54mm_Vertical"
-			(at 44.45 106.68 0)
+			(at 34.29 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

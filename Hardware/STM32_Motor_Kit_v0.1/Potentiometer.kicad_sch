@@ -1461,7 +1461,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WH148-1A-2-20V-B1K "
+		(property "Value" "WH148-1A-2-20V-B1K"
 			(at 113.03 88.8999 0)
 			(effects
 				(font
