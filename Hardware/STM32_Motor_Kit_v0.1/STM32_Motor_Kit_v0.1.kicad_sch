@@ -1,0 +1,3042 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "350b6aea-94d6-460b-86d9-ade6c51fbb19")
+	(paper "A4")
+	(lib_symbols
+		(symbol "AKE_Device:Fiducial_Point"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial_Point"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AKE_PCB:Fiducial_1mm_Mask2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_Point_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "AKE_Device:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AKE_Device_TH:MountingHole_3.2mm_M3_DIN965_Pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AKE_Symbol:MN_LABS"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "SYM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AKE_Sensor_TH:MN Lab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MN_LABS_1_1"
+				(text "mn-labs.com"
+					(at 0 2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AKE_Symbol:PBFree"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SYM"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PBFree"
+				(at 0.254 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AKE_Logo:PBFREE_SMALL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PBFree_0_0"
+				(polyline
+					(pts
+						(xy 1.143 1.397) (xy -1.143 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.8034)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "PB"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AKE_Symbol:PCB_NAME"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SYM"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PCB_NAME"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AKE_Logo:PCB_NAME"
+				(at -1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCB_NAME_0_1"
+				(rectangle
+					(start -5.08 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "AKE_Symbol:Rohs"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SYM"
+				(at 0.127 1.397 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Rohs"
+				(at 0.254 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AKE_Logo:ROHS_LOGO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Rohs_0_0"
+				(text "RoHS"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AKE_Symbol:WEE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SYM"
+				(at 0.127 5.461 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WEE"
+				(at 0.381 -2.413 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AKE_Logo:WEEE-Logo_8.4x12mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WEE_0_0"
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy -0.635 -1.27) (xy 0 -1.27) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -0.381 4.191) (xy 1.016 4.191) (xy 0.635 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 1.27 -0.635) (xy 2.54 3.175) (xy -1.905 3.175) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -0.635)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -0.635)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.5146 3.175)
+					(mid 0.2944 3.8683)
+					(end -1.9304 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 3.556)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "WEE_0_1"
+				(polyline
+					(pts
+						(xy -3.175 5.08) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 5.08) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Graphic:SYM_ESD_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_ESD_Small"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD warning/\"Do not touch\" symbol, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_ESD_Small_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0.381) (xy 2.159 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 -1.905) (xy 2.794 -1.905) (xy 0 2.54) (xy -2.667 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.7432 -1.905) (xy 2.7178 -1.8796) (xy 2.6162 -1.6764) (xy 2.5654 -1.6002) (xy 2.4892 -1.4986)
+						(xy 2.4384 -1.3716) (xy 1.7526 -0.2286) (xy 1.7018 -0.127) (xy 1.6256 -0.0508) (xy 1.6002 0.0508)
+						(xy 1.5494 0.1016) (xy 1.4986 0.2032) (xy 1.4732 0.2286) (xy 1.4732 0.2032) (xy 1.4478 0.2032)
+						(xy 1.3208 0.0762) (xy 1.2954 0.0254) (xy 1.2954 -0.0254) (xy 1.27 -0.0762) (xy 1.2446 -0.1524)
+						(xy 1.143 -0.254) (xy 1.0922 -0.3302) (xy 1.0414 -0.3556) (xy 0.9144 -0.4826) (xy 0.762 -0.5842)
+						(xy 0.6604 -0.6604) (xy 0.508 -0.762) (xy 0.4572 -0.8128) (xy 0.3556 -0.8636) (xy 0.3048 -0.9144)
+						(xy 0.2286 -0.9652) (xy 0.0762 -1.1938) (xy 0.0254 -1.2954) (xy -0.0254 -1.4224) (xy -0.0508 -1.4986)
+						(xy -0.1016 -1.5748) (xy -0.127 -1.651) (xy -0.1778 -1.6764) (xy -0.2032 -1.7272) (xy -0.254 -1.7526)
+						(xy -0.4064 -1.7526) (xy -0.4064 -1.7272) (xy -0.4572 -1.7018) (xy -0.4826 -1.6256) (xy -0.508 -1.524)
+						(xy -0.508 -1.0922) (xy -0.4572 -0.889) (xy -0.4064 -0.8128) (xy -0.254 -0.6604) (xy -0.2032 -0.5842)
+						(xy -0.127 -0.5334) (xy -0.1016 -0.4826) (xy -0.0762 -0.4064) (xy -0.0508 -0.3556) (xy -0.0254 -0.3302)
+						(xy -0.0254 -0.2794) (xy 0 -0.2286) (xy -0.0762 -0.1524) (xy -0.127 -0.127) (xy -0.1524 -0.0762)
+						(xy -0.2032 -0.0508) (xy -0.2286 -0.0254) (xy -0.254 -0.0254) (xy -0.3048 -0.0762) (xy -0.3556 -0.1016)
+						(xy -0.4318 -0.127) (xy -0.4826 -0.1524) (xy -0.5588 -0.2286) (xy -0.6096 -0.254) (xy -0.8382 -0.4826)
+						(xy -0.8128 -0.5588) (xy -0.7874 -0.5842) (xy -0.7874 -0.8636) (xy -0.8128 -0.889) (xy -0.8128 -0.9652)
+						(xy -0.762 -1.016) (xy -0.762 -1.0414) (xy -0.6604 -1.2954) (xy -0.6604 -1.5748) (xy -0.6858 -1.6002)
+						(xy -0.6858 -1.6256) (xy -0.7366 -1.7018) (xy -0.8382 -1.7526) (xy -0.9144 -1.7526) (xy -0.9398 -1.7272)
+						(xy -0.9652 -1.6764) (xy -1.016 -1.6002) (xy -1.0414 -1.524) (xy -1.143 -1.27) (xy -1.2192 -1.0414)
+						(xy -1.27 -0.9652) (xy -1.2954 -0.889) (xy -1.3208 -0.8382) (xy -1.3208 -0.8128) (xy -1.3716 -0.7112)
+						(xy -1.397 -0.5842) (xy -1.397 -0.4826) (xy -1.3716 -0.381) (xy -1.3208 -0.254) (xy -1.2954 -0.2032)
+						(xy -1.1938 -0.0508) (xy -1.0414 0.1524) (xy -0.9906 0.2032) (xy -0.9652 0.254) (xy -0.9144 0.3302)
+						(xy -0.889 0.381) (xy -0.8636 0.381) (xy -0.8128 0.508) (xy -0.6096 0.7112) (xy -0.5334 0.7366)
+						(xy -0.508 0.762) (xy -0.4318 0.762) (xy -0.3556 0.7874) (xy -0.2286 0.8128) (xy -0.1016 0.8128)
+						(xy 0.0508 0.8382) (xy 0.2032 0.8382) (xy 0.3048 0.8636) (xy 0.4826 0.8636) (xy 0.5334 0.889)
+						(xy 0.5842 0.889) (xy 0.6858 0.9398) (xy 0.7112 0.9652) (xy 0.762 0.9906) (xy 0.8128 1.0414) (xy 0.8636 1.0668)
+						(xy 0.889 1.1176) (xy 0.9144 1.143) (xy 0.9144 1.1938) (xy 0.889 1.2192) (xy 0.8636 1.27) (xy 0.8128 1.3462)
+						(xy 0.7112 1.5494) (xy 0.635 1.651) (xy 0.5842 1.7526) (xy 0.508 1.8796) (xy 0.4572 1.9558) (xy 0.381 2.0828)
+						(xy 0.3048 2.1844) (xy 0.254 2.286) (xy 0.2032 2.3622) (xy 0.1778 2.4384) (xy 0.1016 2.5146) (xy 0.1016 2.54)
+						(xy 0.0762 2.5654) (xy 0.0762 2.5908) (xy 0.0254 2.5908) (xy 0.0254 2.5654) (xy -0.0254 2.5146)
+						(xy -0.1016 2.3622) (xy -0.254 2.1336) (xy -0.3048 2.032) (xy -0.4572 1.778) (xy -0.5588 1.6256)
+						(xy -0.762 1.27) (xy -0.889 1.0668) (xy -1.016 0.8382) (xy -1.1684 0.6096) (xy -1.3208 0.3302)
+						(xy -1.397 0.2032) (xy -1.524 -0.0254) (xy -1.778 -0.4318) (xy -1.8796 -0.635) (xy -2.0066 -0.8128)
+						(xy -2.1082 -0.9906) (xy -2.2098 -1.143) (xy -2.286 -1.2954) (xy -2.4384 -1.5494) (xy -2.4892 -1.651)
+						(xy -2.5654 -1.7526) (xy -2.5908 -1.8288) (xy -2.6162 -1.8796) (xy -2.6416 -1.905) (xy -2.6416 -1.9304)
+						(xy 2.7432 -1.9304) (xy 2.7432 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 102.87 36.83) (xy 115.57 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07deb7c4-bb82-4063-a812-34a4dd34376e")
+	)
+	(wire
+		(pts
+			(xy 102.87 57.15) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12397894-d0d1-4ecd-8264-caa043caae12")
+	)
+	(wire
+		(pts
+			(xy 102.87 41.91) (xy 115.57 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e954b7e-ab37-4d4b-8cbf-ef11d202985a")
+	)
+	(wire
+		(pts
+			(xy 102.87 54.61) (xy 115.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62dc19da-0287-4ceb-b2a2-9c51fa8cac04")
+	)
+	(wire
+		(pts
+			(xy 102.87 20.32) (xy 115.57 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77abfaa8-976d-493a-8d3a-2f8a4ea79cdc")
+	)
+	(wire
+		(pts
+			(xy 102.87 39.37) (xy 115.57 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc945a7-0728-44f3-ba9d-db3a5209569a")
+	)
+	(text "POWER ve GND'ler Pinheader ile ayrılacak"
+		(exclude_from_sim no)
+		(at 33.782 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ba8d1d0-62ce-4d7b-8d5d-e6c4d0e0ec5e")
+	)
+	(text "Shift Register out ile ledlerle 7 segment yapılacak"
+		(exclude_from_sim no)
+		(at 13.208 195.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb4f2737-28ed-4970-8588-78258b4ae6cc")
+	)
+	(symbol
+		(lib_id "Graphic:SYM_ESD_Small")
+		(at 218.44 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03796d02-ffb5-4cfc-9926-82376935cbd3")
+		(property "Reference" "#SYM1"
+			(at 218.44 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_ESD_Small"
+			(at 218.44 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AKE_Logo:ESD-Logo_6.6x6mm_SilkScreen"
+			(at 218.44 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD warning/\"Do not touch\" symbol, small"
+			(at 218.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Symbol:WEE")
+		(at 218.44 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "219a5005-d979-48db-821e-09c4f0b6fa27")
+		(property "Reference" "SYM1"
+			(at 222.25 174.6249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WEE"
+			(at 222.25 177.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AKE_Logo:WEEE-Logo_4.2x6mm_SilkScreen"
+			(at 218.44 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Device:Fiducial_Point")
+		(at 199.39 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61b70c99-7351-4d9c-a3b0-c44b32901870")
+		(property "Reference" "FID3"
+			(at 201.93 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_Point"
+			(at 201.93 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AKE_PCB:Fiducial_1mm_Mask2mm"
+			(at 199.39 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 199.39 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Device:Fiducial_Point")
+		(at 180.34 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d5ea4d3-20f4-49db-ae12-85aace9365bd")
+		(property "Reference" "FID1"
+			(at 182.88 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_Point"
+			(at 182.88 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AKE_PCB:Fiducial_1mm_Mask2mm"
+			(at 180.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 180.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Device:MountingHole_Pad")
+		(at 207.01 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f936ede-0c7b-499d-8d15-34cad52e7c22")
+		(property "Reference" "H4"
+			(at 209.55 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 209.55 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AKE_Device_TH:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 207.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 207.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea8143b-d4fb-4f9e-b854-a31bf3a3edc4")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Device:MountingHole_Pad")
+		(at 189.23 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72531327-4fb2-42c0-8cd5-0b84bd1d3953")
+		(property "Reference" "H2"
+			(at 191.77 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 191.77 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AKE_Device_TH:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 189.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 189.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56b7e0b9-cf36-42d6-ac9d-3ed1a50e946c")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Device:MountingHole_Pad")
+		(at 180.34 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75590479-45ef-47a7-9b28-7b89396a52b7")
+		(property "Reference" "H1"
+			(at 182.88 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 182.88 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AKE_Device_TH:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 180.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 180.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1a6ce33-4ea8-464d-83eb-464e9bdd20e1")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Symbol:PBFree")
+		(at 233.68 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8607b65a-19c8-49e8-a2b5-7e18a73cead7")
+		(property "Reference" "SYM3"
+			(at 236.22 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PBFree"
+			(at 236.22 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AKE_Logo:PBFREE_5x5mm"
+			(at 233.68 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "SYM3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Symbol:MN_LABS")
+		(at 266.7 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "91b49618-f2df-4b86-af34-60a8bfa20740")
+		(property "Reference" "SYM4"
+			(at 266.446 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 266.7 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AKE_Sensor_TH:MN Lab"
+			(at 266.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "SYM4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Symbol:PCB_NAME")
+		(at 266.7 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98b91798-b65e-4d9d-8b57-7cfeb57df492")
+		(property "Reference" "STM32_Motor_Kit_v1.1"
+			(at 266.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCB_NAME"
+			(at 266.7 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AKE_Logo:PCB_NAME"
+			(at 265.43 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "STM32_Motor_Kit_v1.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Device:Fiducial_Point")
+		(at 189.23 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7091bc9-8855-40ba-bf38-b4b7053810e2")
+		(property "Reference" "FID2"
+			(at 191.77 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_Point"
+			(at 191.77 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AKE_PCB:Fiducial_1mm_Mask2mm"
+			(at 189.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 189.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Device:Fiducial_Point")
+		(at 208.28 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae9b99c0-9a57-4fe7-bde4-0c8616fc4e06")
+		(property "Reference" "FID4"
+			(at 210.82 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_Point"
+			(at 210.82 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AKE_PCB:Fiducial_1mm_Mask2mm"
+			(at 208.28 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 208.28 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Device:MountingHole_Pad")
+		(at 198.12 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee15f1a-a962-4ce7-9091-1e3b5631e627")
+		(property "Reference" "H3"
+			(at 200.66 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 200.66 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AKE_Device_TH:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 198.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 198.12 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8985404f-01f8-43a8-ad35-219058b12223")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Symbol:Rohs")
+		(at 226.06 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e572bfdd-8021-4594-b0b7-79d866fe8743")
+		(property "Reference" "SYM2"
+			(at 229.87 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Rohs"
+			(at 229.87 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AKE_Logo:ROHS_LOGO"
+			(at 226.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(reference "SYM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 81.28)
+		(size 45.72 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "029dbd2d-6f25-4054-99de-c04304cc61ec")
+		(property "Sheetname" "Potentiometer"
+			(at 186.69 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Potentiometer.kicad_sch"
+			(at 186.69 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Potentiometer_Read" output
+			(at 186.69 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44feeb85-2db9-43b8-88e3-5c55f06e5a5b")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 52.07)
+		(size 45.72 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2912e2a9-9eb0-46ad-a74a-2ad0e8055411")
+		(property "Sheetname" "USB_Communication"
+			(at 57.15 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_Communication.kicad_sch"
+			(at 57.15 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "USB_D_P" input
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "392c5269-dcd5-40e0-9173-9840f34a2262")
+		)
+		(pin "USB_D_N" input
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed7df5c9-b9b6-4ac7-898d-08900928ab13")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 16.51)
+		(size 45.72 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3fb57ce0-d13f-40e8-b178-5dee26895fab")
+		(property "Sheetname" "Power"
+			(at 57.15 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 57.15 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "+3.3V" input
+			(at 102.87 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f598ddc-3a94-4397-a13c-6fca9c362573")
+		)
+		(pin "BUS_Voltage_Read" input
+			(at 102.87 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85d3a321-7bdc-4e2a-873e-f2f956a65c03")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 78.74)
+		(size 45.72 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45214405-7bbc-4183-8326-e87c98861453")
+		(property "Sheetname" "LED_OUT"
+			(at 57.15 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_OUT.kicad_sch"
+			(at 57.15 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SPI_CS" input
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21086611-d479-4ea8-a8fb-8e42f06216ae")
+		)
+		(pin "SN74HC_OE" input
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d50f0515-3083-4c5d-95a3-cd1547c53dc9")
+		)
+		(pin "SPI_MOSI" input
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0338e487-e7a7-4d0b-8281-2024619de04a")
+		)
+		(pin "SPI_CLK" input
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "984af311-45eb-4bc7-afac-fb4325287d72")
+		)
+		(pin "SPI_MISO" input
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "94d85d9b-445a-4f77-baa5-60c0c3c3cc98")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 106.68)
+		(size 45.72 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73efc274-0d9e-41bd-8f18-d38c98d4e66b")
+		(property "Sheetname" "CanBus_Communication"
+			(at 186.69 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CanBus_Communication.kicad_sch"
+			(at 186.69 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MCU_CAN_TX" input
+			(at 186.69 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba60df90-9231-4556-a34c-39f0a3890dbb")
+		)
+		(pin "MCU_CAN_RX" input
+			(at 186.69 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f420c53-0f5c-42e5-8685-a3cbda8a3466")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 19.05)
+		(size 45.72 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "842d55d0-b433-4bd3-b427-14ebcd25ae55")
+		(property "Sheetname" "Motor_Control"
+			(at 186.69 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_Control.kicad_sch"
+			(at 186.69 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "W_Drive_L" input
+			(at 186.69 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63528a9b-cb62-4be2-b042-ff319bf9f88d")
+		)
+		(pin "W_Drive_H" input
+			(at 186.69 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94fd4640-566f-4a5c-9a13-262a29ea70d6")
+		)
+		(pin "Shunt_ADC_U" output
+			(at 186.69 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91be91aa-fdbd-45a2-9762-26f05ce194bd")
+		)
+		(pin "Shunt_ADC_W" output
+			(at 186.69 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "210217fa-7e96-4c27-a44e-940fbf44c9ee")
+		)
+		(pin "Shunt_ADC_V" output
+			(at 186.69 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e630a897-6f89-4f4b-b343-21013b50b3bd")
+		)
+		(pin "U_Drive_H" input
+			(at 186.69 21.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b2dcc49-18f5-4949-99e3-0f8f499a7c01")
+		)
+		(pin "U_Drive_L" input
+			(at 186.69 24.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "294fc24e-f81f-4198-8efd-6cef87d581b3")
+		)
+		(pin "V_Drive_H" input
+			(at 186.69 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e3dc2a79-0395-4481-8f6b-066e79e64e4b")
+		)
+		(pin "V_Drive_L" input
+			(at 186.69 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a2581da-c1fa-4b4d-9b51-1f33360aaec9")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 52.07)
+		(size 45.72 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8dba6a0d-83ed-4e5d-adc3-4fc2b59ce4a5")
+		(property "Sheetname" "Encoder"
+			(at 186.69 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Encoder.kicad_sch"
+			(at 186.69 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "ENC_DATA_B" output
+			(at 186.69 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b28ce5d0-9f97-4035-961d-f4885426f197")
+		)
+		(pin "ENC_CLK_A" output
+			(at 186.69 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff11a087-f2e1-4de7-be4d-61df594b79d7")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 99.06)
+		(size 45.72 46.99)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b50d19b9-c0b5-4836-8d49-6fa6eb4e0e8f")
+		(property "Sheetname" "GPIO"
+			(at 57.15 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIO.kicad_sch"
+			(at 57.15 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 91.44)
+		(size 45.72 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cedb2968-52cc-413b-b98f-5f1bfed36cb3")
+		(property "Sheetname" "RS485_Communication"
+			(at 186.69 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485_Communication.kicad_sch"
+			(at 186.69 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RS485_TX" input
+			(at 186.69 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c78828c-d3ed-4578-8ffd-b7bf93d00c8f")
+		)
+		(pin "RS485_RX" input
+			(at 186.69 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0519319-3d9c-4249-ac1f-e2cf54a2b8f9")
+		)
+		(pin "RS485_ENABLE" input
+			(at 186.69 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c33bcf1c-b0ac-446d-b21e-8c8129df0312")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 66.04)
+		(size 45.72 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed6bb17f-4e91-4e8b-ba38-ade510a52a14")
+		(property "Sheetname" "Flash_IC"
+			(at 57.15 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Flash_IC.kicad_sch"
+			(at 57.15 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "FLASH_WC" input
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "675972a6-6241-4552-96b5-a0640f77cf53")
+		)
+		(pin "FLASH_I2C_SDA" input
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ac80ada-f39f-4589-868e-85fbfb9a8bfa")
+		)
+		(pin "FLASH_I2C_CLK" input
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f7f83ae-aba6-42d4-b4d6-e84058f24232")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 34.29)
+		(size 45.72 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee040fe3-38cb-493d-9547-691323c650cb")
+		(property "Sheetname" "Programming_and_Uart"
+			(at 57.15 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Programming_and_Uart.kicad_sch"
+			(at 57.15 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SWDIO" input
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "33ebc863-0b23-45ac-a2aa-c562f1b00867")
+		)
+		(pin "RST" output
+			(at 102.87 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b62bda9a-5a28-4812-ab5c-6a259f54dcd3")
+		)
+		(pin "SWCLK" input
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "02363b46-f22d-4086-9138-34f2e26183e0")
+		)
+		(pin "FTDI_UART_RX" input
+			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21debbbd-a663-4c83-96e7-75246524f8af")
+		)
+		(pin "FTDI_UART_TX" input
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8e57a12-a326-4cb6-867e-73c67d481cbd")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 17.78)
+		(size 62.23 129.54)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe9dd264-426a-4d70-9138-5154684b292a")
+		(property "Sheetname" "MCU"
+			(at 115.57 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 115.57 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PD2" bidirectional
+			(at 115.57 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83b9eb77-858e-48fc-b76a-c52aa74fb79e")
+		)
+		(pin "PA8" bidirectional
+			(at 115.57 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a705b30f-1ecf-435e-8700-0f908aacba41")
+		)
+		(pin "PA11" bidirectional
+			(at 115.57 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf6e9f20-fe6a-4c78-a85c-00190ee98e97")
+		)
+		(pin "PA9" bidirectional
+			(at 115.57 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd4287cb-a97f-431b-8b53-d7db0d562683")
+		)
+		(pin "PA10" bidirectional
+			(at 115.57 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cbe06f4b-fa33-4955-a83f-5faa16e3f5db")
+		)
+		(pin "PB2" bidirectional
+			(at 115.57 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b47b3626-0324-4115-9b22-24ef00b65855")
+		)
+		(pin "PB5" bidirectional
+			(at 115.57 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f879006-e7ba-48ef-b71f-5243038c7386")
+		)
+		(pin "PB6" bidirectional
+			(at 115.57 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63fa14d1-101b-4d81-ab3c-998968547033")
+		)
+		(pin "PB3" bidirectional
+			(at 115.57 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b90207eb-b533-4861-8e88-87b6b603821c")
+		)
+		(pin "PB0" bidirectional
+			(at 115.57 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efae146d-5985-4c23-955f-5ef3471b6079")
+		)
+		(pin "PB10" bidirectional
+			(at 115.57 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cea2671c-1312-40cc-90ed-554b107ff1f7")
+		)
+		(pin "PB14" bidirectional
+			(at 115.57 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bda90324-7ca4-4437-8c40-ad36dd61eae6")
+		)
+		(pin "PB13" bidirectional
+			(at 115.57 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b06bd71a-93ab-433a-890d-b91a4a03ef46")
+		)
+		(pin "PB11" bidirectional
+			(at 115.57 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d26adaa0-7d91-4376-9fd1-d11af942cfc5")
+		)
+		(pin "PB9" bidirectional
+			(at 115.57 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52b05f77-ee16-4cf6-b2e0-a2979eec8d49")
+		)
+		(pin "PB12" bidirectional
+			(at 115.57 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b5838f31-f7c9-415a-beaf-23bc93cc0bff")
+		)
+		(pin "PA6" bidirectional
+			(at 128.27 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9c6a083-1920-462b-ba02-bc1a5779313a")
+		)
+		(pin "PA4" bidirectional
+			(at 130.81 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "907e148d-54de-4cb8-b24a-5614c6c08ceb")
+		)
+		(pin "PA7" bidirectional
+			(at 133.35 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "422c3745-fa4d-4e6f-83b1-93550b0a01e5")
+		)
+		(pin "PA1" bidirectional
+			(at 135.89 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c128297-6284-4618-9e80-15049200c3fd")
+		)
+		(pin "PA5" bidirectional
+			(at 138.43 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be46ef81-b9cb-4a20-bedb-c83430d93bbf")
+		)
+		(pin "PA2" bidirectional
+			(at 140.97 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2deac0f-ea98-4a23-820d-33b5f21581da")
+		)
+		(pin "PB15" bidirectional
+			(at 143.51 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4837563-1418-427d-83eb-9fc5d4933a1e")
+		)
+		(pin "PB4" bidirectional
+			(at 146.05 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a56591ca-6f71-452d-9276-67a75d2aa583")
+		)
+		(pin "PB1" bidirectional
+			(at 148.59 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8054201-43cb-4a86-9179-02c30a921669")
+		)
+		(pin "PB7" bidirectional
+			(at 125.73 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f6eb65e-023b-41c2-8c85-0f43990a4e16")
+		)
+		(pin "RST" input
+			(at 115.57 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da6d050a-fe9f-49cd-a734-5b793392c12f")
+		)
+		(pin "PA12" bidirectional
+			(at 115.57 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8e1461d-528b-4050-902e-2e6b2e8da236")
+		)
+		(pin "PA15" bidirectional
+			(at 160.02 147.32 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f5d04de-d2d4-48b1-9dd9-4784b4eadb12")
+		)
+		(pin "SWCLK" input
+			(at 115.57 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d059de04-2eee-4c7e-9ef3-908e80a224ee")
+		)
+		(pin "SWDIO" input
+			(at 115.57 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "240b9c38-ccc4-4007-aeb5-b3470b8e9d43")
+		)
+		(pin "PA3" bidirectional
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8c7f05a-dfa8-4134-8c5d-9b5eb167a99b")
+		)
+		(pin "+3.3V" input
+			(at 115.57 20.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35c42fed-849b-45df-8d08-d96df8db8700")
+		)
+		(pin "PC9" bidirectional
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed4dce3f-2594-4392-a120-4c3ab094f55d")
+		)
+		(pin "PC8" bidirectional
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c456df3c-b38d-4dfe-82d2-559a42dac59f")
+		)
+		(pin "PC7" bidirectional
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "429e1dda-e01e-41e4-8d50-a80c08fe6e0b")
+		)
+		(pin "PC6" bidirectional
+			(at 177.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85a14a3e-3060-4de9-8e21-151478dc815a")
+		)
+		(pin "PC5" bidirectional
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3ff5657f-72ff-4c5f-9c47-f64d1014b6c8")
+		)
+		(pin "PC3" bidirectional
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "60919cfc-880a-4fdf-884e-9525b15a4fc4")
+		)
+		(pin "PC4" bidirectional
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f006a16e-d2a0-4914-b37f-feca0336506b")
+		)
+		(pin "PC1" bidirectional
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "161ffe32-660f-4c40-9eb8-8892ee8a4900")
+		)
+		(pin "PC2" bidirectional
+			(at 177.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9af943b0-0e6a-4442-b53f-3670f12ead5c")
+		)
+		(pin "PC10" bidirectional
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8f54b8ce-9858-4485-89cd-773c69a0374f")
+		)
+		(pin "PC11" bidirectional
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8775b334-b6cd-4d5d-b4d7-94eadae1f98c")
+		)
+		(pin "PC12" bidirectional
+			(at 177.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2643a248-5bfa-438e-adc3-e20b011edf0e")
+		)
+		(pin "PC15" bidirectional
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aea9b2b7-9778-4247-b003-5c3be064d3b9")
+		)
+		(pin "PC13" bidirectional
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e48ede2-e5f1-4a2a-8425-b318f66fdc91")
+		)
+		(pin "PC14" bidirectional
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d880181-2ccd-44c0-bc84-9663ac77cb42")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
