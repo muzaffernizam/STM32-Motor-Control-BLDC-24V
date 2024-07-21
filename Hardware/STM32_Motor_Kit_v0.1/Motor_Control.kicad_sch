@@ -9167,7 +9167,7 @@
 		)
 		(uuid "056da23b-01a7-42a3-ad26-14f86d7b5a3a")
 	)
-	(hierarchical_label "Shunt_ADC_V"
+	(hierarchical_label "ADC_Shunt_V"
 		(shape output)
 		(at 363.22 172.72 0)
 		(fields_autoplaced yes)
@@ -9179,7 +9179,7 @@
 		)
 		(uuid "110f0bda-6bba-48e7-a551-c78bafeae119")
 	)
-	(hierarchical_label "Shunt_ADC_W"
+	(hierarchical_label "ADC_Shunt_W"
 		(shape output)
 		(at 361.95 233.68 0)
 		(fields_autoplaced yes)
@@ -9191,7 +9191,7 @@
 		)
 		(uuid "153500c2-c71e-48ae-a735-1d18f4b1d077")
 	)
-	(hierarchical_label "Shunt_ADC_U"
+	(hierarchical_label "ADC_Shunt_U"
 		(shape output)
 		(at 360.68 109.22 0)
 		(fields_autoplaced yes)

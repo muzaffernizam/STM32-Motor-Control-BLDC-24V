@@ -6141,7 +6141,7 @@
 		)
 		(uuid "2531e2f0-cdcb-4e09-89c0-dcc7bbfe0c36")
 	)
-	(hierarchical_label "BUS_Voltage_Read"
+	(hierarchical_label "ADC_BUS_Voltage_Read"
 		(shape input)
 		(at 151.13 168.91 0)
 		(fields_autoplaced yes)
