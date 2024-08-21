@@ -59,14 +59,32 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define W_Drive_H_Pin GPIO_PIN_0
+#define W_Drive_H_GPIO_Port GPIOC
+#define V_Drive_H_Pin GPIO_PIN_1
+#define V_Drive_H_GPIO_Port GPIOC
+#define U_Drive_H_Pin GPIO_PIN_2
+#define U_Drive_H_GPIO_Port GPIOC
+#define Potentiometer_Read_Pin GPIO_PIN_3
+#define Potentiometer_Read_GPIO_Port GPIOC
 #define ADC_Shunt_W_Pin GPIO_PIN_6
 #define ADC_Shunt_W_GPIO_Port GPIOA
+#define W_Drive_L_Pin GPIO_PIN_7
+#define W_Drive_L_GPIO_Port GPIOA
 #define ADC_Shunt_V_Pin GPIO_PIN_4
 #define ADC_Shunt_V_GPIO_Port GPIOC
 #define ADC_Shunt_U_Pin GPIO_PIN_5
 #define ADC_Shunt_U_GPIO_Port GPIOC
+#define V_Drive_L_Pin GPIO_PIN_0
+#define V_Drive_L_GPIO_Port GPIOB
+#define U_Drive_L_Pin GPIO_PIN_1
+#define U_Drive_L_GPIO_Port GPIOB
 #define ADC_BUS_Voltage_Read_Pin GPIO_PIN_2
 #define ADC_BUS_Voltage_Read_GPIO_Port GPIOB
+#define ENC_CLK_A_Pin GPIO_PIN_6
+#define ENC_CLK_A_GPIO_Port GPIOB
+#define ENC_DATA_B_Pin GPIO_PIN_7
+#define ENC_DATA_B_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

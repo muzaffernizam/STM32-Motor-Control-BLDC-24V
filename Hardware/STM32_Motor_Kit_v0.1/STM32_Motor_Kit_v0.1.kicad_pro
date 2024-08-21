@@ -804,6 +804,10 @@
       "LED_OUT"
     ],
     [
+      "ca28d019-0ad9-4280-9459-639e6dfd5044",
+      "User_Command"
+    ],
+    [
       "ed6bb17f-4e91-4e8b-ba38-ade510a52a14",
       "Flash_IC"
     ]
