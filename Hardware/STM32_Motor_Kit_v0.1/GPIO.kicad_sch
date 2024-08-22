@@ -1128,6 +1128,7 @@
 	(hierarchical_label "Pin_4"
 		(shape input)
 		(at 107.95 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1139,6 +1140,7 @@
 	(hierarchical_label "Pin_8"
 		(shape input)
 		(at 107.95 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1150,6 +1152,7 @@
 	(hierarchical_label "Pin_12"
 		(shape input)
 		(at 107.95 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1161,6 +1164,7 @@
 	(hierarchical_label "Pin_10"
 		(shape input)
 		(at 107.95 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1172,6 +1176,7 @@
 	(hierarchical_label "Pin_7"
 		(shape input)
 		(at 83.82 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1183,6 +1188,7 @@
 	(hierarchical_label "Pin_6"
 		(shape input)
 		(at 107.95 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1194,6 +1200,7 @@
 	(hierarchical_label "Pin_3"
 		(shape input)
 		(at 83.82 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1205,6 +1212,7 @@
 	(hierarchical_label "Pin_13"
 		(shape input)
 		(at 83.82 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1216,6 +1224,7 @@
 	(hierarchical_label "Pin_14"
 		(shape input)
 		(at 107.95 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1227,6 +1236,7 @@
 	(hierarchical_label "Pin_5"
 		(shape input)
 		(at 83.82 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1238,6 +1248,7 @@
 	(hierarchical_label "Pin_11"
 		(shape input)
 		(at 83.82 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1249,6 +1260,7 @@
 	(hierarchical_label "Pin_1"
 		(shape input)
 		(at 83.82 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1260,6 +1272,7 @@
 	(hierarchical_label "Pin_2"
 		(shape input)
 		(at 107.95 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,6 +1284,7 @@
 	(hierarchical_label "Pin_15"
 		(shape input)
 		(at 83.82 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1282,6 +1296,7 @@
 	(hierarchical_label "Pin_9"
 		(shape input)
 		(at 83.82 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

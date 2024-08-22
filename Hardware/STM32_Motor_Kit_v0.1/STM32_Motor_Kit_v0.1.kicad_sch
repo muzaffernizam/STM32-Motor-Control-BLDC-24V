@@ -4390,7 +4390,7 @@
 			)
 		)
 		(pin "Pin_10" input
-			(at 87.63 127 0)
+			(at 87.63 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4400,7 @@
 			(uuid "75fb725b-a957-44ba-909f-7a3356ff237b")
 		)
 		(pin "Pin_14" input
-			(at 87.63 137.16 0)
+			(at 87.63 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4420,7 @@
 			(uuid "249a0ada-23f9-495c-afb9-45b51b353601")
 		)
 		(pin "Pin_1" input
-			(at 87.63 101.6 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4430,7 @@
 			(uuid "ac1be8dc-e20f-41e7-a113-eabaa32ebf16")
 		)
 		(pin "Pin_3" input
-			(at 87.63 106.68 0)
+			(at 87.63 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4440,7 @@
 			(uuid "7f5224f3-0507-4d95-9f71-ac5ba079a5ee")
 		)
 		(pin "Pin_5" input
-			(at 87.63 113.03 0)
+			(at 87.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4450,7 @@
 			(uuid "989a5801-96b6-41b9-8df3-d162a4ea316f")
 		)
 		(pin "Pin_7" input
-			(at 87.63 118.11 0)
+			(at 87.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4460,7 @@
 			(uuid "802017bc-178b-417c-88ac-5e5263a528a2")
 		)
 		(pin "Pin_13" input
-			(at 87.63 134.62 0)
+			(at 87.63 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +4470,7 @@
 			(uuid "c838950f-9cd2-4c98-93eb-76d88742300d")
 		)
 		(pin "Pin_15" input
-			(at 87.63 139.7 0)
+			(at 87.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4480,7 @@
 			(uuid "b54fa336-4ce1-4669-8018-fd69d2fdb22a")
 		)
 		(pin "Pin_9" input
-			(at 87.63 124.46 0)
+			(at 87.63 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4490,7 @@
 			(uuid "fcd55ebc-7b12-4fa8-a706-7b7ee450774f")
 		)
 		(pin "Pin_11" input
-			(at 87.63 129.54 0)
+			(at 87.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4500,7 @@
 			(uuid "453893ab-4441-4a19-8902-b5aaba33adca")
 		)
 		(pin "Pin_8" input
-			(at 87.63 121.92 0)
+			(at 87.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +4510,7 @@
 			(uuid "56c2a6d8-1131-4e9d-8e58-a4344e4a6572")
 		)
 		(pin "Pin_4" input
-			(at 87.63 109.22 0)
+			(at 87.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4520,7 @@
 			(uuid "008936a1-0b2b-4760-bf05-ca724c796ae4")
 		)
 		(pin "Pin_2" input
-			(at 87.63 104.14 0)
+			(at 87.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4530,7 @@
 			(uuid "1d01815e-f728-43a2-b804-6e5beaf94d17")
 		)
 		(pin "Pin_6" input
-			(at 87.63 115.57 0)
+			(at 87.63 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
