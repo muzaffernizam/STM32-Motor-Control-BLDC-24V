@@ -1003,10 +1003,10 @@
 		)
 	)
 	(junction
-		(at 143.51 87.63)
+		(at 129.54 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d17d6e7-b806-44c6-a482-ff55f3f849d4")
+		(uuid "883d259a-2a9a-4d30-9a80-efd126403e3d")
 	)
 	(junction
 		(at 115.57 77.47)
@@ -1015,46 +1015,52 @@
 		(uuid "8da953a2-adf5-41f9-898c-ce3c38f9c4ad")
 	)
 	(junction
-		(at 143.51 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a058464e-8b01-4102-bb08-c7e3f6ac687e")
-	)
-	(junction
-		(at 134.62 87.63)
+		(at 148.59 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2c14ba6-8bb8-4f7c-9a13-cb0c618501fe")
 	)
 	(junction
-		(at 154.94 87.63)
+		(at 129.54 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be0b59f9-f5c3-420e-8a4c-4b401dc967fd")
+	)
+	(junction
+		(at 168.91 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c12041a8-3607-45df-80b1-2f1261ba7223")
 	)
+	(junction
+		(at 148.59 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c69bf533-d0b0-4220-b0ce-fed7a05736f6")
+	)
 	(wire
 		(pts
-			(xy 143.51 87.63) (xy 154.94 87.63)
+			(xy 129.54 101.6) (xy 148.59 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0208f97c-b271-45c9-9929-1ede604a16eb")
+		(uuid "09d01c52-6919-4ed7-a10f-92a1fedd4ed2")
 	)
 	(wire
 		(pts
-			(xy 154.94 101.6) (xy 143.51 101.6)
+			(xy 148.59 101.6) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06778b65-7779-47fe-b76e-6a1d68e0bd73")
+		(uuid "103fb5f8-c02f-401b-9cda-f15528c9518c")
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 134.62 102.87)
+			(xy 148.59 99.06) (xy 148.59 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1064,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 99.06) (xy 143.51 101.6)
+			(xy 129.54 99.06) (xy 129.54 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1084,7 +1090,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 87.63) (xy 134.62 87.63)
+			(xy 143.51 87.63) (xy 148.59 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1094,13 +1100,33 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 87.63) (xy 172.72 87.63)
+			(xy 168.91 87.63) (xy 172.72 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57ed3dfa-7ba5-49c5-b492-6f1cb0abe731")
+	)
+	(wire
+		(pts
+			(xy 148.59 101.6) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e9498d-5341-4819-b3d1-d34ad1117234")
+	)
+	(wire
+		(pts
+			(xy 129.54 87.63) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638b69c0-0905-4749-9d95-95c77025a1ee")
 	)
 	(wire
 		(pts
@@ -1114,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 93.98) (xy 143.51 87.63)
+			(xy 129.54 93.98) (xy 129.54 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1134,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 87.63) (xy 134.62 93.98)
+			(xy 148.59 87.63) (xy 148.59 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 87.63) (xy 143.51 87.63)
+			(xy 148.59 87.63) (xy 168.91 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 86.36) (xy 154.94 87.63)
+			(xy 168.91 86.36) (xy 168.91 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 101.6) (xy 143.51 102.87)
+			(xy 129.54 101.6) (xy 129.54 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 154.94 101.6)
+			(xy 168.91 99.06) (xy 168.91 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 87.63) (xy 124.46 87.63)
+			(xy 119.38 87.63) (xy 129.54 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1602,7 +1628,7 @@
 	)
 	(symbol
 		(lib_id "AKE_Capacitor:Capacitor_UnPolarised")
-		(at 134.62 96.52 0)
+		(at 148.59 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1610,7 +1636,7 @@
 		(dnp no)
 		(uuid "3bfe84c9-01a5-4539-9de7-324e25abf913")
 		(property "Reference" "C98"
-			(at 135.89 99.06 0)
+			(at 149.86 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1645,7 @@
 			)
 		)
 		(property "Value" "100nF_50V"
-			(at 132.08 101.6 90)
+			(at 146.05 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1654,7 @@
 			)
 		)
 		(property "Footprint" "AKE_Capacitor_SMD:CAP_0603"
-			(at 134.62 96.52 0)
+			(at 148.59 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 96.52 0)
+			(at 148.59 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 96.52 0)
+			(at 148.59 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,7 +1681,7 @@
 			)
 		)
 		(property "MFG P/N" "*"
-			(at 134.62 96.52 0)
+			(at 148.59 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1706,7 @@
 	)
 	(symbol
 		(lib_id "AKE_Power:GND")
-		(at 143.51 102.87 0)
+		(at 129.54 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1688,7 +1714,7 @@
 		(dnp no)
 		(uuid "57a40f88-bcbe-4cfc-a9a8-8fa74dcc997f")
 		(property "Reference" "#PWR0139"
-			(at 143.51 109.22 0)
+			(at 129.54 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.637 107.2642 0)
+			(at 129.667 107.2642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 102.87 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 102.87 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1749,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 102.87 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +1771,7 @@
 	)
 	(symbol
 		(lib_id "AKE_Resistor:Resistor_US")
-		(at 127 87.63 90)
+		(at 140.97 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1753,7 +1779,7 @@
 		(dnp no)
 		(uuid "5dcfe69a-3a10-40fc-bcfc-d29a8cafdaec")
 		(property "Reference" "R89"
-			(at 125.73 90.17 90)
+			(at 139.7 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1787,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 127 85.09 90)
+			(at 140.97 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1795,7 @@
 			)
 		)
 		(property "Footprint" "AKE_Resistor_SMD:RES_0603"
-			(at 127 87.63 0)
+			(at 140.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 87.63 0)
+			(at 140.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1813,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 87.63 0)
+			(at 140.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1822,7 @@
 			)
 		)
 		(property "MFG P/N" "*"
-			(at 124.46 83.82 0)
+			(at 138.43 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +1912,7 @@
 	)
 	(symbol
 		(lib_id "AKE_Diode:Diode_Zener")
-		(at 142.24 93.98 270)
+		(at 128.27 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1894,7 +1920,7 @@
 		(dnp no)
 		(uuid "66744b3f-cbd1-4d7e-90ba-1a3f965bffef")
 		(property "Reference" "D37"
-			(at 145.2372 95.3516 90)
+			(at 131.2672 95.3516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,7 +1929,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 145.2372 97.663 90)
+			(at 131.2672 97.663 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +1938,7 @@
 			)
 		)
 		(property "Footprint" "AKE_Diode_SMD:SOD-123"
-			(at 144.78 97.155 0)
+			(at 130.81 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,7 +1947,7 @@
 			)
 		)
 		(property "Datasheet" "https://rocelec.widen.net/view/pdf/n24ngee8nj/NEXP-S-A0003514697-1.pdf?t.download=true&u=5oefqw"
-			(at 144.78 97.155 0)
+			(at 130.81 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +1956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 93.98 0)
+			(at 128.27 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +1965,7 @@
 			)
 		)
 		(property "MFG P/N" "BZT52-C3V6J"
-			(at 142.24 93.98 0)
+			(at 128.27 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1990,7 @@
 	)
 	(symbol
 		(lib_id "AKE_Device:Test_Point")
-		(at 154.94 86.36 0)
+		(at 168.91 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1972,7 +1998,7 @@
 		(dnp no)
 		(uuid "cf3160a4-8370-4ff4-84ec-2a3375a90ad5")
 		(property "Reference" "TP23"
-			(at 155.448 84.836 0)
+			(at 169.418 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +2007,7 @@
 			)
 		)
 		(property "Value" "Test_Point"
-			(at 157.48 84.3279 0)
+			(at 171.45 84.3279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +2017,7 @@
 			)
 		)
 		(property "Footprint" "AKE_PCB:TEST_POINT"
-			(at 160.02 86.36 0)
+			(at 173.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +2026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 86.36 0)
+			(at 173.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2035,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 154.94 86.36 0)
+			(at 168.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2057,7 @@
 	)
 	(symbol
 		(lib_id "AKE_Power:GND")
-		(at 134.62 102.87 0)
+		(at 148.59 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2039,7 +2065,7 @@
 		(dnp no)
 		(uuid "df9e5831-0f11-4330-ae8b-a115e5239366")
 		(property "Reference" "#PWR0138"
-			(at 134.62 109.22 0)
+			(at 148.59 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2074,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.747 107.2642 0)
+			(at 148.717 107.2642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 102.87 0)
+			(at 148.59 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 102.87 0)
+			(at 148.59 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2100,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 102.87 0)
+			(at 148.59 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2122,7 @@
 	)
 	(symbol
 		(lib_id "AKE_Device:Test_Point")
-		(at 154.94 99.06 0)
+		(at 168.91 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2104,7 +2130,7 @@
 		(dnp no)
 		(uuid "f58974c5-948a-4ac1-b544-799270450e89")
 		(property "Reference" "TP24"
-			(at 155.448 97.536 0)
+			(at 169.418 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +2139,7 @@
 			)
 		)
 		(property "Value" "Test_Point"
-			(at 157.48 97.0279 0)
+			(at 171.45 97.0279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2149,7 @@
 			)
 		)
 		(property "Footprint" "AKE_PCB:TEST_POINT"
-			(at 160.02 99.06 0)
+			(at 173.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 99.06 0)
+			(at 173.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2167,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 154.94 99.06 0)
+			(at 168.91 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
