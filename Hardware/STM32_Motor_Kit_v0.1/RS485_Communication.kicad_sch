@@ -2052,6 +2052,12 @@
 		(uuid "0c88f873-36e5-444d-9bc3-7f8a4ca60275")
 	)
 	(junction
+		(at 129.54 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14023868-e8de-4edd-9c62-bccf28fb38a1")
+	)
+	(junction
 		(at 212.09 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2062,6 +2068,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2670ddfe-e67b-464a-8bcf-9315b91a83f4")
+	)
+	(junction
+		(at 129.54 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fd8cc98-75a3-490b-b53f-4e9e4f7d4ee8")
 	)
 	(junction
 		(at 88.9 77.47)
@@ -2082,10 +2094,10 @@
 		(uuid "5c366bd5-7b0f-4b22-889c-5110bb99bf78")
 	)
 	(junction
-		(at 135.89 77.47)
+		(at 129.54 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67dd25eb-1719-438e-9028-cfefbebb2e0b")
+		(uuid "7febd7e8-c612-4e7a-8495-fdaf1bd9c1bd")
 	)
 	(junction
 		(at 222.25 74.93)
@@ -2098,12 +2110,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4a61729-b870-4ba3-a8da-ab929add9c89")
-	)
-	(junction
-		(at 135.89 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9f82817-4bee-4001-a3fd-ed371e8e7c5f")
 	)
 	(junction
 		(at 82.55 73.66)
@@ -2119,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 77.47) (xy 135.89 77.47)
+			(xy 111.76 77.47) (xy 129.54 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2186,16 +2192,6 @@
 			(type default)
 		)
 		(uuid "2276e77c-f3e0-411a-a896-bef5bfd91f58")
-	)
-	(wire
-		(pts
-			(xy 135.89 73.66) (xy 138.43 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b92b8d-6b23-481b-8f2d-e90106bdf56f")
 	)
 	(wire
 		(pts
@@ -2269,16 +2265,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 77.47) (xy 135.89 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aa065f9-b50f-4338-9151-5cc4f5c9609a")
-	)
-	(wire
-		(pts
 			(xy 190.5 86.36) (xy 203.2 86.36)
 		)
 		(stroke
@@ -2309,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 82.55) (xy 135.89 82.55)
+			(xy 138.43 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2359,6 +2345,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 96.52) (xy 129.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f61fb5-7af4-4b67-bfcb-272394f30dfe")
+	)
+	(wire
+		(pts
 			(xy 80.01 86.36) (xy 95.25 86.36)
 		)
 		(stroke
@@ -2366,6 +2362,16 @@
 			(type default)
 		)
 		(uuid "89db7c75-8844-43cf-b75d-60bbf39ae0d2")
+	)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 138.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa1f0da-4d9c-4e86-a28d-d98003c4112d")
 	)
 	(wire
 		(pts
@@ -2389,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 57.15) (xy 135.89 60.96)
+			(xy 129.54 57.15) (xy 129.54 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 135.89 73.66)
+			(xy 111.76 73.66) (xy 129.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2526,6 +2532,16 @@
 			(type default)
 		)
 		(uuid "bc1f7e50-5980-41b9-b46b-301168a8abbb")
+	)
+	(wire
+		(pts
+			(xy 129.54 77.47) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd23dbce-df6c-46d8-bdb6-1e32219c0ca9")
 	)
 	(wire
 		(pts
@@ -2639,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 57.15) (xy 162.56 57.15)
+			(xy 129.54 57.15) (xy 162.56 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2679,6 +2695,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 82.55) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7efce1-4de3-46fd-a6b2-9045e447b259")
+	)
+	(wire
+		(pts
 			(xy 203.2 86.36) (xy 203.2 91.44)
 		)
 		(stroke
@@ -2689,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 66.04) (xy 135.89 73.66)
+			(xy 129.54 67.31) (xy 129.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2719,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 82.55) (xy 135.89 77.47)
+			(xy 129.54 82.55) (xy 129.54 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3010,6 +3036,82 @@
 			(project "STM32_Motor_Kit_v0.1"
 				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19/cedb2968-52cc-413b-b98f-5f1bfed36cb3"
 					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Resistor:Resistor_US")
+		(at 129.54 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09b6c665-98ef-4a2a-9d31-7262cca199df")
+		(property "Reference" "R117"
+			(at 132.588 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 127.508 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AKE_Resistor_SMD:RES_0603"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "*"
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90dd16ad-8109-4131-80d1-54c0765b3eec")
+		)
+		(pin "2"
+			(uuid "5199f5a0-724e-46f7-b773-6bb74c001ea6")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19/cedb2968-52cc-413b-b98f-5f1bfed36cb3"
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -3615,6 +3717,71 @@
 			(project "STM32_Motor_Kit_v0.1"
 				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19/cedb2968-52cc-413b-b98f-5f1bfed36cb3"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AKE_Power:GND")
+		(at 129.54 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52eb6c30-7a37-487f-82c8-4c8d558d945b")
+		(property "Reference" "#PWR052"
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.667 104.7242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4a7bd9c-4b65-48c5-8e94-628cb47967c0")
+		)
+		(instances
+			(project "STM32_Motor_Kit_v0.1"
+				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19/cedb2968-52cc-413b-b98f-5f1bfed36cb3"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4781,7 +4948,7 @@
 	)
 	(symbol
 		(lib_id "AKE_Resistor:Resistor_US")
-		(at 135.89 63.5 180)
+		(at 129.54 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4789,7 +4956,7 @@
 		(dnp no)
 		(uuid "d8a7c3bd-74c5-4f10-9c97-948f5b144114")
 		(property "Reference" "R84"
-			(at 138.938 65.786 0)
+			(at 132.588 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4964,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 133.858 64.008 90)
+			(at 127.508 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +4972,7 @@
 			)
 		)
 		(property "Footprint" "AKE_Resistor_SMD:RES_0603"
-			(at 135.89 63.5 0)
+			(at 129.54 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 63.5 0)
+			(at 129.54 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 63.5 0)
+			(at 129.54 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4999,7 @@
 			)
 		)
 		(property "MFG P/N" "*"
-			(at 132.08 66.04 0)
+			(at 125.73 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

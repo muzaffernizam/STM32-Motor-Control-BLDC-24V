@@ -58,9 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|58000001|144446018|2e0b6db1-9f30-429e-90d4-9cbeefff647f|adb69fb7-2ccb-4aad-8c56-85ba4001cf18"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -70,7 +68,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -165,7 +163,7 @@
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 0.3
         },
         {
           "td_allow_use_two_tracks": true,
