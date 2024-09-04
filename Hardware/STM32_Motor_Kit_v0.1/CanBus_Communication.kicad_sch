@@ -3127,7 +3127,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "696380c1-3ea7-4edb-8621-40003dd33a9c")
 		(property "Reference" "R22"
 			(at 147.574 72.136 0)
@@ -3137,7 +3137,7 @@
 				)
 			)
 		)
-		(property "Value" "DNI/RX1"
+		(property "Value" "10K"
 			(at 140.97 72.136 90)
 			(effects
 				(font
@@ -3576,7 +3576,7 @@
 				)
 			)
 		)
-		(property "Value" "DNI/RX2"
+		(property "Value" "10K"
 			(at 149.86 74.93 90)
 			(effects
 				(font

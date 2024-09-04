@@ -1846,7 +1846,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT60JFILM"
+		(property "Value" "B0520LW-7-F"
 			(at 120.777 69.85 0)
 			(effects
 				(font
@@ -1872,7 +1872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE SCHOTTKY 3A 10V SOD323 ST "
+		(property "Description" "DIODE SCHOTTKY 3A 10V SOD323 ST"
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -2233,7 +2233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE TVS 5V 17.5V SOT23-6 "
+		(property "Description" "DIODE TVS 5V 17.5V SOT23-6"
 			(at 94.996 94.742 0)
 			(effects
 				(font
@@ -2530,7 +2530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CHOKE COMMON MODE 90R 400MA SMT "
+		(property "Description" "CHOKE COMMON MODE 90R 400MA SMT"
 			(at 138.43 92.71 0)
 			(effects
 				(font

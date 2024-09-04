@@ -1800,6 +1800,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 59.69) (xy 203.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b337a78d-f8d4-46fb-9a13-d68d9ee574fd")
+	)
+	(wire
+		(pts
 			(xy 107.95 113.03) (xy 115.57 113.03)
 		)
 		(stroke
@@ -2372,6 +2382,17 @@
 		)
 		(uuid "83e76b9b-23c1-4132-a5ee-429efdf50056")
 	)
+	(label "ENC_CH2"
+		(at 182.88 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9012058d-badb-49d6-993b-2aa23f945803")
+	)
 	(label "PC14"
 		(at 90.17 137.16 0)
 		(fields_autoplaced yes)
@@ -2526,6 +2547,17 @@
 		)
 		(uuid "c32b97e0-d32b-4e9a-b1bd-ec768c755459")
 	)
+	(label "ENC_CH1"
+		(at 182.88 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c42221fc-0b6c-4075-80ae-f801c3bc127f")
+	)
 	(label "RS485_ENABLE"
 		(at 179.07 99.06 0)
 		(fields_autoplaced yes)
@@ -2570,17 +2602,6 @@
 		)
 		(uuid "d7a1ce72-f9af-4f36-9768-b9885b05d437")
 	)
-	(label "ENC_CLK_A"
-		(at 181.61 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d901bf21-7135-49fd-949f-b4a410492b4c")
-	)
 	(label "PA0"
 		(at 90.17 127 0)
 		(fields_autoplaced yes)
@@ -2614,6 +2635,17 @@
 		)
 		(uuid "e5548e65-6963-4f8f-93ba-9c5b462470c4")
 	)
+	(label "ENC_CH3"
+		(at 182.88 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8a885ee-eaa1-4f7f-8c02-547708a9d6be")
+	)
 	(label "PB14"
 		(at 90.17 104.14 0)
 		(fields_autoplaced yes)
@@ -2635,17 +2667,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef55b2db-11f6-4155-86a2-1bc418a8c84d")
-	)
-	(label "ENC_DATA_B"
-		(at 181.61 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f20db6e2-d828-40f2-b120-622228ddab15")
 	)
 	(label "SWCLK"
 		(at 90.17 41.91 0)
@@ -2676,7 +2697,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "03796d02-ffb5-4cfc-9926-82376935cbd3")
 		(property "Reference" "#SYM1"
@@ -2957,7 +2978,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "219a5005-d979-48db-821e-09c4f0b6fa27")
 		(property "Reference" "SYM1"
@@ -3598,7 +3619,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6f936ede-0c7b-499d-8d15-34cad52e7c22")
 		(property "Reference" "H4"
@@ -3666,7 +3687,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "72531327-4fb2-42c0-8cd5-0b84bd1d3953")
 		(property "Reference" "H2"
@@ -3734,7 +3755,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "75590479-45ef-47a7-9b28-7b89396a52b7")
 		(property "Reference" "H1"
@@ -3802,7 +3823,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8607b65a-19c8-49e8-a2b5-7e18a73cead7")
 		(property "Reference" "SYM3"
@@ -3942,7 +3963,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "91b49618-f2df-4b86-af34-60a8bfa20740")
 		(property "Reference" "SYM4"
 			(at 266.446 178.054 0)
@@ -4363,7 +4384,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cee15f1a-a962-4ce7-9091-1e3b5631e627")
 		(property "Reference" "H3"
@@ -4715,7 +4736,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e572bfdd-8021-4594-b0b7-79d866fe8743")
 		(property "Reference" "SYM2"
@@ -5588,7 +5609,7 @@
 	)
 	(sheet
 		(at 203.2 52.07)
-		(size 45.72 7.62)
+		(size 45.72 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5608,7 +5629,7 @@
 			)
 		)
 		(property "Sheetfile" "Encoder.kicad_sch"
-			(at 203.2 60.2746 0)
+			(at 203.2 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5638,7 @@
 				(hide yes)
 			)
 		)
-		(pin "ENC_DATA_B" output
+		(pin "ENC_CH2" output
 			(at 203.2 57.15 180)
 			(effects
 				(font
@@ -5625,9 +5646,9 @@
 				)
 				(justify left)
 			)
-			(uuid "b28ce5d0-9f97-4035-961d-f4885426f197")
+			(uuid "efd40216-97da-49e0-888f-2bca498c5ded")
 		)
-		(pin "ENC_CLK_A" output
+		(pin "ENC_CH1" output
 			(at 203.2 54.61 180)
 			(effects
 				(font
@@ -5635,7 +5656,17 @@
 				)
 				(justify left)
 			)
-			(uuid "ff11a087-f2e1-4de7-be4d-61df594b79d7")
+			(uuid "1932ee33-9148-4798-b8bd-713456d72703")
+		)
+		(pin "ENC_CH3" output
+			(at 203.2 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e9014257-8eb7-4bdd-ba89-0e71213cedd1")
 		)
 		(instances
 			(project "STM32_Motor_Kit_v0.1"
@@ -6222,7 +6253,7 @@
 			(uuid "2f879006-e7ba-48ef-b71f-5243038c7386")
 		)
 		(pin "PB6" bidirectional
-			(at 177.8 54.61 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6283,7 @@
 			(uuid "efae146d-5985-4c23-955f-5ef3471b6079")
 		)
 		(pin "PB10" bidirectional
-			(at 177.8 99.06 0)
+			(at 177.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,12 +6373,12 @@
 			(uuid "422c3745-fa4d-4e6f-83b1-93550b0a01e5")
 		)
 		(pin "PA1" bidirectional
-			(at 115.57 129.54 180)
+			(at 177.8 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "9c128297-6284-4618-9e80-15049200c3fd")
 		)
@@ -6402,12 +6433,12 @@
 			(uuid "d8054201-43cb-4a86-9179-02c30a921669")
 		)
 		(pin "PB7" bidirectional
-			(at 177.8 57.15 0)
+			(at 115.57 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "0f6eb65e-023b-41c2-8c85-0f43990a4e16")
 		)
@@ -6642,12 +6673,12 @@
 			(uuid "571e5231-4b2d-4f70-a730-2e2aee12ab79")
 		)
 		(pin "PA0" bidirectional
-			(at 115.57 127 180)
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "ada78de7-0bd5-4def-a562-bc5279a99a66")
 		)

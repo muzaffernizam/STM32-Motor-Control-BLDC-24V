@@ -7719,7 +7719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC-54331D REG. BUCK ADJ 3A 8SOIC TI "
+		(property "Description" "IC-54331D REG. BUCK ADJ 3A 8SOIC TI"
 			(at 169.164 54.102 0)
 			(effects
 				(font

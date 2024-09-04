@@ -1514,7 +1514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "POT 1K 0.125W 1 TURN CARBON LINEAR ±20% "
+		(property "Description" "POT 1K 0.125W 1 TURN CARBON LINEAR ±20%"
 			(at 115.57 87.63 0)
 			(effects
 				(font

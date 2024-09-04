@@ -81,10 +81,6 @@ void Error_Handler(void);
 #define U_Drive_L_GPIO_Port GPIOB
 #define ADC_BUS_Voltage_Read_Pin GPIO_PIN_2
 #define ADC_BUS_Voltage_Read_GPIO_Port GPIOB
-#define ENC_CLK_A_Pin GPIO_PIN_6
-#define ENC_CLK_A_GPIO_Port GPIOB
-#define ENC_DATA_B_Pin GPIO_PIN_7
-#define ENC_DATA_B_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
