@@ -4316,7 +4316,8 @@
 	)
 	(symbol
 		(lib_id "AKE_Connector_Socket:Conn_01x06_Male")
-		(at 200.66 85.09 180)
+		(at 200.66 82.55 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4324,7 +4325,7 @@
 		(dnp no)
 		(uuid "bc4adf95-86a1-4c65-a451-9bb93ae94252")
 		(property "Reference" "J5"
-			(at 201.93 85.0901 0)
+			(at 201.93 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4334,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Male"
-			(at 201.93 82.5501 0)
+			(at 201.93 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4343,7 @@
 			)
 		)
 		(property "Footprint" "AKE_Connector_W2B:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal"
-			(at 200.66 85.09 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 85.09 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4361,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 200.66 85.09 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

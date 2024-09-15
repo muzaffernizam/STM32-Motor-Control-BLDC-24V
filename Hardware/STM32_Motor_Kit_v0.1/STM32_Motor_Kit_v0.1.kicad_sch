@@ -1830,16 +1830,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 129.54) (xy 115.57 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb25f75-cdce-4503-8a75-6406bc05ce9b")
-	)
-	(wire
-		(pts
 			(xy 107.95 106.68) (xy 115.57 106.68)
 		)
 		(stroke
@@ -1937,16 +1927,6 @@
 			(type default)
 		)
 		(uuid "de56c40b-dcf0-4a1d-9176-81c65cb0392f")
-	)
-	(wire
-		(pts
-			(xy 87.63 129.54) (xy 102.87 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df81f833-688d-4013-b2c0-c8ebb70e329a")
 	)
 	(wire
 		(pts
@@ -2656,17 +2636,6 @@
 			(justify left bottom)
 		)
 		(uuid "e90cd7e1-8f78-4dc4-9aa4-470015b7a5d7")
-	)
-	(label "PA1"
-		(at 90.17 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef55b2db-11f6-4155-86a2-1bc418a8c84d")
 	)
 	(label "SWCLK"
 		(at 90.17 41.91 0)
@@ -5013,82 +4982,6 @@
 	)
 	(symbol
 		(lib_id "AKE_Resistor:Resistor_US")
-		(at 105.41 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee81c9ee-39d8-46f1-868a-c784229dd8ac")
-		(property "Reference" "R112"
-			(at 108.458 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33R"
-			(at 101.854 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AKE_Resistor_SMD:RES_0603"
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "*"
-			(at 107.95 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f606aa82-ca6f-43b8-b415-061a1dc9358d")
-		)
-		(pin "2"
-			(uuid "f37903fe-efca-410a-9ec0-bdc7c0b283b0")
-		)
-		(instances
-			(project "STM32_Motor_Kit_v0.1"
-				(path "/350b6aea-94d6-460b-86d9-ade6c51fbb19"
-					(reference "R112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AKE_Resistor:Resistor_US")
 		(at 105.41 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5766,16 +5659,6 @@
 				(justify right)
 			)
 			(uuid "989a5801-96b6-41b9-8df3-d162a4ea316f")
-		)
-		(pin "Pin_7" input
-			(at 87.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "802017bc-178b-417c-88ac-5e5263a528a2")
 		)
 		(pin "Pin_13" input
 			(at 87.63 101.6 0)
