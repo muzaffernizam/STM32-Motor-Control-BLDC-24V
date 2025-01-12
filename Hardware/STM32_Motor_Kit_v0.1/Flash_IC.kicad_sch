@@ -1382,7 +1382,8 @@
 			(at 153.67 80.01 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 			)
 		)
@@ -1460,7 +1461,8 @@
 			(at 160.02 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(hide yes)
 			)
@@ -1527,7 +1529,8 @@
 			(at 104.14 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(hide yes)
 			)
@@ -1592,7 +1595,8 @@
 			(at 92.71 83.82 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(hide yes)
 			)
@@ -1658,7 +1662,8 @@
 			(at 160.02 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(hide yes)
 			)
@@ -1724,7 +1729,8 @@
 			(at 153.67 82.55 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 			)
 		)
@@ -1800,7 +1806,8 @@
 			(at 173.228 73.406 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -1867,7 +1874,8 @@
 			(at 179.578 73.406 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -1935,7 +1943,8 @@
 			(at 110.49 77.47 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 			)
 		)
@@ -2012,7 +2021,8 @@
 			(at 136.525 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 			)
 		)
@@ -2106,7 +2116,8 @@
 			(at 157.734 56.134 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(justify right)
 			)
@@ -2185,7 +2196,8 @@
 			(at 110.49 85.09 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 			)
 		)
@@ -2261,7 +2273,8 @@
 			(at 161.29 72.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -2339,7 +2352,8 @@
 			(at 185.928 73.406 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -2407,7 +2421,8 @@
 			(at 124.46 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Arial")
+					(size 0.635 0.635)
 				)
 				(hide yes)
 			)
