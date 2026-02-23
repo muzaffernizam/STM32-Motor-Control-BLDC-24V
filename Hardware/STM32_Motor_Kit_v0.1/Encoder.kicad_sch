@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1ebf9861-affc-48a6-9aa3-9ac753afe406")
 	(paper "A4")
 	(lib_symbols
 		(symbol "AKE_Capacitor:Capacitor_Tantalum"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -86,17 +90,6 @@
 			)
 			(symbol "Capacitor_Tantalum_0_1"
 				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -1.524 0.6858)
 					(end 1.524 0.3048)
 					(stroke
@@ -105,6 +98,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -170,11 +174,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AKE_Capacitor:Capacitor_UnPolarised"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -253,10 +262,10 @@
 			(symbol "Capacitor_UnPolarised_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -265,10 +274,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -314,10 +323,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AKE_Connector_Socket:Conn_01x06_Male"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -383,45 +395,75 @@
 				)
 			)
 			(symbol "Conn_01x06_Male_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 1.27 5.08) (xy 0.8636 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -445,7 +487,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -455,70 +497,40 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -630,11 +642,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AKE_Device:Test_Point"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -733,6 +750,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AKE_Diode:Diode_Schottky"
 			(pin_names
@@ -820,7 +838,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 2.032) (xy 2.032 1.778)
+						(xy 1.524 2.032) (xy 1.778 2.032) (xy 2.032 2.032)
 					)
 					(stroke
 						(width 0.1524)
@@ -832,7 +850,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.27) (xy 3.429 1.27)
+						(xy 1.524 1.27) (xy 3.429 2.032) (xy 3.429 0.508) (xy 1.524 1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -856,7 +874,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 2.032) (xy 1.778 2.032) (xy 2.032 2.032)
+						(xy 2.032 2.032) (xy 2.032 1.778)
 					)
 					(stroke
 						(width 0.1524)
@@ -868,7 +886,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 1.27) (xy 3.429 2.032) (xy 3.429 0.508) (xy 1.524 1.27)
+						(xy 3.81 1.27) (xy 3.429 1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -917,6 +935,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AKE_Diode:Diode_TVS_Bidirectional"
 			(pin_names
@@ -992,42 +1011,6 @@
 				)
 				(polyline
 					(pts
-						(xy 4.064 2.032) (xy 3.556 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 2.032) (xy 4.064 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 1.27) (xy 5.969 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 3.81 2.286) (xy 3.81 0.762) (xy 4.318 0.254)
 					)
 					(stroke
@@ -1052,7 +1035,43 @@
 				)
 				(polyline
 					(pts
+						(xy 4.064 2.032) (xy 3.556 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 2.032) (xy 4.064 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 4.064 1.27) (xy 5.969 2.032) (xy 5.969 0.508) (xy 4.064 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.27) (xy 5.969 1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -1101,6 +1120,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AKE_Power:+5V"
 			(power)
@@ -1178,7 +1198,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1190,7 +1210,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1204,7 +1224,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -1221,6 +1242,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AKE_Power:GND"
 			(power)
@@ -1300,7 +1322,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1317,6 +1340,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AKE_Power:GND(SHIELD)"
 			(power)
@@ -1432,7 +1456,8 @@
 			(symbol "GND(SHIELD)_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND(SHIELD)"
 						(effects
 							(font
@@ -1449,11 +1474,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AKE_Resistor:Resistor_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1532,7 +1562,7 @@
 			(symbol "Resistor_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1544,7 +1574,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -1591,9 +1621,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DC_DCU_v0.1-rescue:PTC_Thermistor_US-AKE_NTC&PTC"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1665,10 +1698,10 @@
 			(symbol "PTC_Thermistor_US-AKE_NTC&PTC_0_1"
 				(polyline
 					(pts
-						(xy -1.905 -3.175) (xy -1.651 -3.429)
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1677,7 +1710,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -3.175) (xy -1.651 -2.921)
+						(xy -1.905 -2.54) (xy -1.651 -2.286)
 					)
 					(stroke
 						(width 0.1524)
@@ -1701,7 +1734,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -2.54) (xy -1.651 -2.286)
+						(xy -1.905 -3.175) (xy -1.651 -2.921)
 					)
 					(stroke
 						(width 0.1524)
@@ -1713,7 +1746,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -3.175) (xy -1.905 -3.175)
+						(xy -1.905 -3.175) (xy -1.651 -3.429)
 					)
 					(stroke
 						(width 0.1524)
@@ -1737,10 +1770,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
+						(xy -0.635 -3.175) (xy -1.905 -3.175)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1761,31 +1794,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -1809,7 +1818,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1858,6 +1891,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -2703,7 +2737,6 @@
 	(hierarchical_label "ENC_CH3"
 		(shape output)
 		(at 78.74 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2715,7 +2748,6 @@
 	(hierarchical_label "ENC_CH2"
 		(shape output)
 		(at 78.74 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2727,7 +2759,6 @@
 	(hierarchical_label "ENC_CH1"
 		(shape output)
 		(at 78.74 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
